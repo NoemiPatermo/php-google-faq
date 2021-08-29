@@ -11,6 +11,7 @@
     <title>php-google-faq</title>
 </head>
 <body>
+    
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.google.com">
@@ -19,8 +20,6 @@
     </a>
   </div>
 </nav>
-    
-
     
 
     <?php
