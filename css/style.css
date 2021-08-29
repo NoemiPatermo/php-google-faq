@@ -3,11 +3,53 @@
     font-size: 14px;
     font-weight: 400;
 }
-
-a{
-    color: lightslategray;
+.logo-box a{
+    color: rgba(0,0,0,0.87);
     text-decoration: none;
+    font-size: large;
 }
+
+.logo-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+}
+i{
+    padding: 20px;
+}
+.fa-user-circle{
+    font-size: x-large;
+}
+
+
+.nav-items{
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 100%;
+  
+
+}
+.nav-items  li{
+    list-style: none;
+    
+    
+}
+
+.nav-items a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+
+    
+}
+.nav-items a:hover{
+    border-bottom: 1px solid blue;
+    
+}
+
+
 .container a{
  color: blue;
 }

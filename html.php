@@ -11,16 +11,39 @@
     <title>php-google-faq</title>
 </head>
 <body>
-    
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="https://www.google.com">
-      <img src="./img/logo-google.jpg" alt="logo-google" width="150" height="100">
-      <a href="https://www.google.com" class="d-inline-block align-text-top">Privacy e Termini</a>
-    </a>
-  </div>
+    <div class="logo-box">
+        <div class="logo">
+            <img src="./img/logo-google.png" alt="">
+            <a href="https://www.google.com">Privacy e Termini</a>
+       </div>
+       <div>
+            <i class="fas fa-th"></i> 
+            <i class="fas fa-user-circle"></i>        
+       </div>
+    </div>
+
+    <nav>
+        <div class="navbar">
+            <ul class="nav-items">
+                <li>
+                <a href="https://www.google.com">Introduzione</a>
+                </li>
+                <li>
+                <a href="https://www.google.com">Norme sulla privacy </a>
+                </li>
+                <li>
+                <a href="https://www.google.com">Termini di servizio</a>
+                </li>
+                <li>
+                <a href="https://www.google.com">Tecnologie</a>
+                </li>
+                <li>
+                <a  href="https://www.google.com">Domande frequenti</a>
+                </li>
+            </ul>
+        </div>
 </nav>
-    
+
 
     <?php
    
